@@ -1,0 +1,181 @@
+
+.navbar-expand-lg .navbar-nav .nav-link2{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link2 {
+    color: rgba(255,255,255,.6);
+}
+
+.navbar-dark .navbar-nav a:hover {
+    color: rgba(255,255,255,1.0);
+}
+
+
+.navbar-nav .nav-link2 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.active a
+{
+    color: yellow!important;
+    font-weight: 400;
+}
+
+
+.active 
+{
+    /*background-color: #956ad8;*/
+    border-radius: 15px;
+}
+
+.active .sr-only
+{
+    height: 2px;
+    background-color: aqua;
+    width: auto;
+}
+
+.nav-link2 {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.nav-item a {
+    color: #007bff;
+    text-decoration: none;
+   /* background-color: transparent;*/
+    -webkit-text-decoration-skip: objects;
+}
+
+@media (max-width: 1000px) {
+    .navbar-collapse.collapse:not(.in) {
+        display: none !important;
+    }
+}
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 75% !important;
+}
+
+
+////////////////////////////////////////////
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+   
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
